@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.khalti_pay">
+    package="com.example.khalti_pay"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
    <application
         android:label="khalti_pay"
+        tools:replace = "android:label"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Khalti Pay',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(),
+      theme: ThemeData(
+      ),
       home: PayPage(),
     );
   }

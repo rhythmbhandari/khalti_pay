@@ -17,7 +17,6 @@ class _PayPageState extends State<PayPage> {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              backgroundColor: Colors.green,
               title: Text("Khalti Pay"),
             ),
             body: Container(
